@@ -6,13 +6,17 @@
 .headerContainer {
     display: flex; 
     flex-direction: column; 
-    background-color: black;
+    background-color: #000100;
+    width: 100%; 
+    height: 25vh; 
+
 }
 
 .mainContainer {
     display: flex; 
     flex-direction: column;
     background-color: #017101;
+    width: 100%; 
 }
 
 

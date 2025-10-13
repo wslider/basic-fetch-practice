@@ -19,5 +19,19 @@ Create two buttons to get and handle data.
 Create a button to clear the cards
 - This button will remove all the cards from page.
 
-JSON 
+
+
+JSON file 
 https://github.com/dan-collins-dev/dummy-data-fetching-repo/blob/main/data/users.json 
+
+key value pairs example 
+
+[
+    {
+        "id": 1,
+        "firstName": "Charmian",
+        "lastName": "Robottom",
+        "email": "crobottom0@google.com.au",
+        "companyName": "Livepath",
+        "yearsEmployed": 15
+    }, ... ]
