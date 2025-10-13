@@ -1,0 +1,22 @@
+ .body {
+    color: #efffff;
+    font-family: 'Courier New', Courier, monospace;
+ }
+
+.headerContainer {
+    display: flex; 
+    flex-direction: column; 
+    background-color: black;
+}
+
+.mainContainer {
+    display: flex; 
+    flex-direction: column;
+    background-color: #017101;
+}
+
+
+
+@media only screen and (min-width: 768px) { 
+
+}
