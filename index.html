@@ -11,18 +11,25 @@
         <h1>
             Users
         </h1>
-        <span></span>
-        <nav>
+        <nav class="nav buttonContainer">
             <button class="button" id="allUsersButton">Get All Useres</button>
             <button class="button" id="usersUnder10Button">Users Under 10 Years Experience</button>
             <button class="button" id="resetButton">Reset</button>
         </nav>
     </header>
-    <main class="container mainContainer">
-        <div class="container cardContainer">
 
+    <main class="container mainContainer" id="cardContainer">
+        
+        <div class="hidden container card">
+            <p class="cardDataItem" id="firstName"></p>
+            <p class="cardDataItem" id="lastName"></p>
+            <p class="cardDataItem" id="email"></p>
+            <p class="cardDataItem" id="companyName"></p>
+            <p class="cardDataItem" id="yearsEmployed"></p>
         </div>
+
     </main>
+    
 <script src="script.js"></script>
 </body>
 </html>
