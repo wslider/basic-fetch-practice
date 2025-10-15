@@ -21,7 +21,7 @@ Create a button to clear the cards
 
 
 
-JSON file 
+### JSON file 
 https://github.com/dan-collins-dev/dummy-data-fetching-repo/blob/main/data/users.json 
 
 key value pairs example 
@@ -35,3 +35,6 @@ key value pairs example
         "companyName": "Livepath",
         "yearsEmployed": 15
     }, ... ]
+
+#### AI USE
+After encountering CORS issue in testing, reviews materials and consulted Grok 3 for possible work arounds. Created Server.js and Node Modules per instuction in an attempt to find a solution. 
