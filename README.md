@@ -35,6 +35,3 @@ key value pairs example
         "companyName": "Livepath",
         "yearsEmployed": 15
     }, ... ]
-
-#### AI USE
-After encountering CORS issue in testing, reviews materials and consulted Grok 3 for possible work arounds. Created Server.js and Node Modules per instuction in an attempt to find a solution. 
