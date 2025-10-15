@@ -25,11 +25,11 @@ async function displayUserCards(users) {
     const card = document.createElement('div');
     card.className = 'userCard';
     card.innerHTML = `
-      <p>First Name: ${user.firstName}</p>
-      <p>Last Name: ${user.lastName}</p>
-      <p>Email: ${user.email}</p>
-      <p>Company Name: ${user.companyName}</p>
-      <p>Years Employed: ${user.yearsEmployed}</p>
+      <p>First Name: ${user.firstName} </p>
+      <p>Last Name: ${user.lastName} </p>
+      <p>Email: ${user.email} </p>
+      <p>Company Name: ${user.companyName} </p>
+      <p>Years Employed: ${user.yearsEmployed} </p>
     `;
     cardsContainer.appendChild(card);
   });
@@ -38,7 +38,7 @@ async function displayUserCards(users) {
 // Fetch and display all users
 allUsersButton.addEventListener("click", async () => {
   try {
-    const users = await fetchUserData('https://github.com/dan-collins-dev/dummy-data-fetching-repo/blob/main/data/users.json');
+    const users = await fetchUserData('https://raw.githubusercontent.com/dan-collins-dev/dummy-data-fetching-repo/refs/heads/main/data/users.json');
     await displayUserCards(users);
   } catch (error) {
     cardsContainer.innerHTML = `<p>An error occurred. We could not find the users you were looking for.</p>`;
@@ -47,7 +47,7 @@ allUsersButton.addEventListener("click", async () => {
 
 usersUnder10Button.addEventListener("click", async () => {
   try {
-    const users = await fetchUserData('https://github.com/dan-collins-dev/dummy-data-fetching-repo/blob/main/data/users.json');
+    const users = await fetchUserData('https://raw.githubusercontent.com/dan-collins-dev/dummy-data-fetching-repo/refs/heads/main/data/users.json');
     const filteredUsers = users.filter(user => user.yearsEmployed < 10);
     await displayUserCards(filteredUsers);
   } catch (error) {
